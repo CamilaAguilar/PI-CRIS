@@ -1,0 +1,77 @@
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+i:link{
+    text-decoration: none;
+}
+
+#box1{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 12px;
+}
+
+.card:hover{
+   transform: translateY(-10px);
+   
+}
+
+.card-title{
+    margin-left: 18px;
+}
+
+#mktColor{
+    color: purple;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+.text-ellipse{
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.navbar {
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    justify-content: center;
+    
+  }
+
+#tema1 {
+    background-color: purple;
+}
+#tema2 {
+    background-color: white;
+}
+
+#tema3 {
+    color: purple;
+   
+}
+  
+#cardBlog{   
+    padding: 15px;
+}
